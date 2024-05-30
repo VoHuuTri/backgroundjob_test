@@ -24,7 +24,7 @@ jobs:
         # Add any other dependencies here, if your script requires them
 
     - name: Execute script
-      run: python write_to_file.py
+      run: python write_file.py
 
     - name: Commit and push if changes
       run: |
