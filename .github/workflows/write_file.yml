@@ -34,4 +34,4 @@ jobs:
         git commit -m "Update file" -a || echo "No changes to commit"
         git push --set-upstream origin HEAD -f
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ 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 }}
