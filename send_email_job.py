@@ -30,7 +30,7 @@ def send_email(sender_email, password, receiver_email, subject, body):
 # Configuration
 sender_email = 'tricopro789@gmail.com'
 password = '0966188549As'
-receiver_email = 'vo.huu.tri578@mail.com'
+receiver_email = 'vo.huu.tri578@gmail.com'
 
 # Main
 email_content = create_content()
