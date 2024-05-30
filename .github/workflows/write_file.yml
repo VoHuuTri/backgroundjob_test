@@ -28,8 +28,10 @@ jobs:
 
     - name: Commit and push if changes
       run: |
-        git config --global user.email "vo.huu.tri578@example.com"
-        git config --global user.name "tri.vo"
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
         git add .
         git commit -m "Update file" -a || echo "No changes to commit"
-        git push
+        git push --set-upstream origin HEAD -f
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
